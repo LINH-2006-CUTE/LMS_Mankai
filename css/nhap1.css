@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f7fa;
+}
+
+/* Thanh điều hướng */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: #ff6200;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.user-profile img {
+    height: 20px;
+    margin-right: 5px;
+}
+
+.user-profile .user-icon {
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* Nội dung chính */
+.main-content {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Thông tin người dùng */
+.user-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user-details {
+    display: flex;
+    align-items: center;
+}
+
+.user-photo {
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.user-text h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.user-text p {
+    color: #666;
+    font-size: 14px;
+}
+
+.user-stats {
+    display: flex;
+    gap: 20px;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat .icon {
+    font-size: 24px;
+}
+
+.stat p:first-of-type {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.stat p:last-of-type {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Danh sách khóa học */
+.courses {
+    margin-top: 20px;
+}
+
+.courses h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.course-count {
+    background-color: #ff6200;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 14px;
+}
+
+.course-list {
+    display: flex;
+    gap: 20px;
+}
+
+.course-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+}
+
+.course-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.course-info {
+    padding: 15px;
+}
+
+.course-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.course-info p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.continue-btn {
+    background-color: #ff6200;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.continue-btn:hover {
+    background-color: #e55a00;
+}
+
+.edit-btn {
+    color: #ff6200;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.edit-btn:hover {
+    text-decoration: underline;
+}
